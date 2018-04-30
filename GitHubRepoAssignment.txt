@@ -1,0 +1,13 @@
+cd Desktop
+md GithubRepoAssignment
+git init
+copy NUL readme.md
+git status
+git add *
+git commit -m "Initial Commit"
+git remote add origin https://github.com/stradtkt/GithubRepoAssignment.git
+git push -u origin master
+copy NUL GitHubRepoAssignment.txt
+git add *
+git commit -m "Added GitHubRepoAssignment.txt to show the commands"
+git push
